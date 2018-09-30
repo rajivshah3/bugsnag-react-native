@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text, Button, ScrollView, StyleSheet, Platform } from 'react-native';
 
-import bugsnag from 'lib/bugsnag';
-import NativeCrash from 'lib/native_crash';
+import bugsnag from './lib/bugsnag';
+import NativeCrash from './lib/native_crash';
 
 function triggerException() {
   bogusFunction(); // eslint-disable-line no-undef
